@@ -60,10 +60,16 @@ There are many intricate data processing in the test stage, consuming much time.
 
 ## Usage
 
-This code requires a legacy version of an open-source SNN framework **SpikingJelly**. To get this framework installed, first clone the repo from [GitHub](https://github.com/fangwei123456/spikingjelly):
+This code requires a *legacy* version of an open-source SNN framework **SpikingJelly**. To get this framework installed, first clone the repo from [GitHub](https://github.com/fangwei123456/spikingjelly):
 
 ```bash
 $ git clone https://github.com/fangwei123456/spikingjelly.git
+```
+
+or [OpenI](https://git.openi.org.cn/OpenI/spikingjelly)
+
+```bash
+$ git clone https://git.openi.org.cn/OpenI/spikingjelly.git
 ```
 
 Then, checkout the version we use in these experiments and install it.
