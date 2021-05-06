@@ -22,7 +22,7 @@ The training (including test) code and model definition for CIFAR-10 and MNIST a
 
 ## Dependency 
 
-The major dependencies of this code are list as below
+The major dependencies of this repo are list as below
 
 ```
 # Name                    Version
@@ -36,7 +36,7 @@ tensorboard               2.2.1
 torchvision               0.7.0
 ```
 
-**Note**: the version of spikingjelly will be clarified in [usage](##Usage) part.
+**Note**: the version of spikingjelly will be clarified in [usage](#usage) part.
 
 ## Environment
 
@@ -66,7 +66,7 @@ This code requires a *legacy* version of an open-source SNN framework **SpikingJ
 $ git clone https://github.com/fangwei123456/spikingjelly.git
 ```
 
-or [OpenI](https://git.openi.org.cn/OpenI/spikingjelly)
+or [OpenI](https://git.openi.org.cn/OpenI/spikingjelly):
 
 ```bash
 $ git clone https://git.openi.org.cn/OpenI/spikingjelly.git
