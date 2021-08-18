@@ -1,6 +1,13 @@
 # Pruning of Deep Spiking Neural Networks through Gradient Rewiring
 This directory contains the code of this paper. The pretrained model is too large to fit <50MB requirements for supplementary file. Nonetheless, we spare no effort to maintain the reproducibility by keeping the random seeds in our experiment and clarifying the dependency and environment.
 
+- [Directory Tree](#directory-tree)
+- [Dependency](#dependency)
+- [Environment](#environment)
+- [Usage](#usage)
+- [Running Arguments](#running-arguments)
+- [Citation](#citation)
+
 ## Directory Tree
 
 ```
@@ -114,4 +121,25 @@ The TensorBoard logs will be placed in `<dump-dir>/logs`.
 | -m,--mode           | Pruning method ('deep' or  'grad', or 'no_prune')            | 'no_prune'                | str   |
 | -soft               | Whether to use soft Deep R (Only work when mode='deep')      | False                     | bool  |
 | -test               | Whether to test only                                         | False                     | bool  |
+
+## Citation
+
+Please refer to the following citation if this work is useful for your research.
+
+```latex
+@inproceedings{ijcai2021-236,
+  title     = {Pruning of Deep Spiking Neural Networks through Gradient Rewiring},
+  author    = {Chen, Yanqi and Yu, Zhaofei and Fang, Wei and Huang, Tiejun and Tian, Yonghong},
+  booktitle = {Proceedings of the Thirtieth International Joint Conference on
+               Artificial Intelligence, {IJCAI-21}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  editor    = {Zhi-Hua Zhou},
+  pages     = {1713--1721},
+  year      = {2021},
+  month     = {8},
+  note      = {Main Track}
+  doi       = {10.24963/ijcai.2021/236},
+  url       = {https://doi.org/10.24963/ijcai.2021/236},
+}
+```
 
